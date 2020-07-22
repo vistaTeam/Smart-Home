@@ -1,0 +1,264 @@
+body{
+  font-family: 'Nunito', sans-serif;
+}
+
+button{
+  outline: none;
+  border: none;
+  background: none;
+}
+
+*:focus {
+  outline: 0 !important;
+}
+
+@keyframes flip-in {
+  0% {
+    transform: rotateY(180deg); 
+    opacity: 0.2;   
+  }
+  100% {
+      transform: rotateX(0deg);  
+      opacity: 1;
+  }}
+
+.App {
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  animation: flip-in 0.5s ease-in-out;
+  animation-direction: alternate;
+}
+
+.App-logo {
+  height: 27vmin;
+  margin-top: 50px;
+  cursor: pointer;
+  animation: flip-in 0.5s ease-in-out;
+  animation-direction: alternate;
+}
+
+.welcome-message{
+  color: #187cea;
+  padding-top: 25px;
+  animation: flip-in 0.5s ease-in-out;
+  animation-direction: alternate;
+}
+
+.new-room-mesaage{
+  color: #187cea;
+  padding-top: 35px;
+  font-size: 25px;
+  animation: flip-in 0.5s ease-in-out;
+  animation-direction: alternate;
+}
+
+.select-room{
+  margin-top: 25px;
+  animation: flip-in 0.5s ease-in-out;
+  animation-direction: alternate;
+}
+
+.room-name-input{
+  margin-top: 25px;
+  animation: flip-in 0.5s ease-in-out;
+  animation-direction: alternate;
+}
+
+.select-color-room{
+  margin-top: 25px;
+  animation: flip-in 0.5s ease-in-out;
+  animation-direction: alternate;
+}
+
+.btn-register-room{
+  margin-top: 25px;
+  font-weight: 700;
+  font-family: 'Nunito', sans-serif;
+  animation: flip-in 0.5s ease-in-out;
+  animation-direction: alternate;
+  padding: 8px;
+  width: 250px;
+  background-color: white;
+  border-radius: 100px;
+  border:#187cea solid;
+  color: #187cea;
+  transition: 0.15s;
+}
+
+.btn-register-room:hover{
+  color: white;
+  border: 10px white solid;
+  background-color: #187cea;
+}
+
+.eror-message{
+  color: red;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  animation: flip-in 0.5s ease-in-out;
+  animation-direction: alternate;
+}
+
+.great-message{
+  color: #187cea;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  animation: flip-in 0.5s ease-in-out;
+  animation-direction: alternate;
+}
+
+.type-style{
+  font-size: 15px;
+  line-height: 22px;
+  animation: flip-in 0.5s ease-in-out;
+  animation-direction: alternate;
+}
+
+.btn-home{
+  margin: 15px;
+  animation: flip-in 0.5s ease-in-out;
+  animation-direction: alternate;
+}
+
+.room-name{
+  margin: 15px 8px 0px 8px;
+  font-size: 16px;
+  width: 95px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  padding: 10px 0px 10px 0px;
+  border-radius: 150px;
+  cursor: pointer;
+  transition: 0.2s;
+  opacity: 0.8;
+  font-family: 'Nunito', sans-serif;
+}
+
+.room-name:hover{
+  transform: scale(1.1);
+  opacity: 1;
+  box-shadow: 3px 3px 12px rgba(153, 153, 153, 0.64);
+  text-shadow: 3px 3px 12px rgba(153, 153, 153, 0.64);
+}
+
+.rooms-style{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  animation: flip-in 0.5s ease-in-out;
+  animation-direction: alternate;
+  margin-bottom: 50px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.delete-btn{
+  background-color: red;
+  padding: 8px;
+  color: white;
+  font-weight: 700;
+  border-radius: 100px;
+  width: 150px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 12px;
+  transition: 0.1s;
+}
+
+.delete-btn:hover{
+  background-color: rgb(206, 0, 0);
+}
+
+hr.room-hr {
+  margin-top: 35px;
+  border: 0;
+  height: 1px;
+  opacity: 0.8;
+  color: #187cea;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #187cea, rgba(0, 0, 0, 0));
+}
+
+hr.room-hr2 {
+  border: 0;
+  height: 1px;
+  opacity: 0.8;
+  color: #187cea;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #187cea, rgba(0, 0, 0, 0));
+}
+
+.add-item{
+  margin-top: 25px;
+  font-weight: 700;
+  font-family: 'Nunito', sans-serif;
+  padding: 8px;
+  width: 200px;
+  background-color: white;
+  border-radius: 100px;
+  border:#187cea solid;
+  color: #187cea;
+  transition: 0.15s;
+}
+
+.add-item:hover{
+  color: white;
+  background-color: #187cea;
+}
+
+.new-item-message{
+  color: #187cea;
+  padding-top: 35px;
+  font-size: 20px;
+  animation: flip-in 0.5s ease-in-out;
+  animation-direction: alternate;
+}
+
+.room-type{
+  font-size: 16px;
+  font-weight: 500;
+  color: #187cea;
+  line-height: 22px;
+}
+
+.btnItemFalse{
+  font-size: 15px;
+  width: auto;
+  font-family: 'Nunito', sans-serif;
+  margin: 7px;
+  border-radius: 100px;
+  padding: 6.5px 22px 6.5px 22px;
+  line-height: 20px;
+  color: white;
+  background-color: #ea181c;
+  transition: 0.5s;
+}
+.btnItemFalse:hover{
+  background-color: #ca1518;
+
+}
+
+
+.btnItemTrue{
+  font-size: 15px;
+  width: auto;
+  font-family: 'Nunito', sans-serif;
+  margin: 7px;
+  border-radius: 100px;
+  padding: 6.5px 22px 6.5px 22px;
+  line-height: 20px;
+  color: white;
+  background-color: #039d08;
+  transition: 0.5s;
+}
+.btnItemTrue:hover{
+  background-color: #008504;
+}
+
+
+
+.items-show{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+
+}
