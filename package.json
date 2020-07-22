@@ -2,7 +2,7 @@
   "name": "smart-home",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vistateam.github.io/Smart-Home/",
+  "homepage": "https://vistateam.github.io/Smart-Home",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.29",
     "@lottiefiles/lottie-player": "^0.5.1",
